@@ -1,0 +1,20 @@
+[user]
+	name = peter
+	email = jonloong110@gmail.com
+[push]
+	default = simple
+[color]
+	ui = true
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%t%Creset - %C(yellow)%h%Creset %C(yellow reverse)%d%Creset %s %Cgreen<%cr : %cd>%Creset %C(blue)<%an>%Creset' --date=format:'%Y-%m-%d %H:%M:%S %a'
+	lg30 = log --color --graph --pretty=format:'%Cred%t%Creset - %C(yellow)%h%Creset %C(yellow reverse)%d%Creset %s %Cgreen<%cr : %cd>%Creset %C(blue)<%an>%Creset' --date=format:'%Y-%m-%d %H:%M:%S %a' -30
+	st = status
+	co = checkout
+	br = branch
+	ci = commit -m
+	ss = stash
+	mg = merge
+	cb = checkout -b
+	mgm = merge --no-ff -m
+[https]
+[http]
